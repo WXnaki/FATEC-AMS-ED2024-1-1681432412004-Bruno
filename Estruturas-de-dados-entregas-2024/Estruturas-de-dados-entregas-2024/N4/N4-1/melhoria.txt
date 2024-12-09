@@ -1,0 +1,6 @@
+Foi adicionada uma validação para garantir que o número de elementos seja positivo e que as entradas sejam números inteiros, evitando erros de execução.
+Além disso, o código agora limpa o buffer de entrada ao detectar entradas inválidas, prevenindo loops infinitos.
+Para maior clareza e transparência, foi incluída uma mensagem indicando o número de iterações realizadas antes de o array estar completamente ordenado, tornando o funcionamento do algoritmo mais evidente.
+O nome da variável que controla as trocas foi alterado de "swapped" para "trocado", garantindo maior consistência em português, e o loop de entrada e exibição foi simplificado com o uso direto do índice na declaração, reduzindo a complexidade do escopo.
+O tratamento de erros durante a execução foi aprimorado, especialmente nas entradas fornecidas pelo usuário, minimizando problemas decorrentes de caracteres inválidos.
+Por fim, a mensagem sobre as iterações fornece um feedback claro sobre o desempenho do algoritmo, evidenciando sua eficiência em casos onde o array já está parcialmente ordenado.
